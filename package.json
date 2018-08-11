@@ -1,0 +1,27 @@
+{
+  "name": "cmw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c ./config/rollup.config.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magic801/cmw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magic801/cmw/issues"
+  },
+  "homepage": "https://github.com/magic801/cmw#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "rollup": "^0.64.1",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  }
+}
