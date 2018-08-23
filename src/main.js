@@ -1,5 +1,3 @@
-import CMV from './component/cmw.js'
+import CMW from './component/cmw.js'
 
-export default {
-    CMV
-}
+export default CMW
